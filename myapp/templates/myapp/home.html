@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Counter</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'myapp/styles.css' %}" />
+</head>
+<body>
+    <div id="content">
+        <header>
+            <nav>
+                <a href="home.html">CalorieCount</a>
+            </nav>
+        </header>
+        <h1 id="slogan">Track your Calories to Reach Your Fitness Goals!</h1>
+        <div id="input-area">
+            <form>
+                <label for="calories">Enter your calories:</label>
+                <input type="number" id="calories" name="calores_to_add">
+                <button id="add_to_count">Add Calories</button>
+                <button id="subtract_from_count">Subtract Calories</button>
+            </form>
+        </div>
+        <div id="count-area">
+            <div id="total-count">
+                <h1>Total Count</h1>
+                <p id="count"></p>
+            </div>
+            <div id="calorie-goal">
+                <h1>Caloric Goal</h1>
+                <p id="goal" contenteditable="True">0</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    max-width: 1500px;
+    background-color: white;
+    margin: 0 auto;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* header and nav styling */
+
+nav {
+    background-color: black;
+    display: flex;
+}
+
+nav a {
+    color: white;
+    font-size: 26px;
+    padding: 30px;
+    text-decoration: none;
+}
+
+#slogan {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-top: 75px;
+}
+
+#input-area {
+    margin: 0 auto;
+    width: 750px;
+    border: 5px solid black;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+#input-area form {
+    padding: 50px 100px;
+}
+
+#input-area input {
+    height: 30px;
+    font-size: 20px;
+}
+
+#input-area button {
+    height: 35px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+#add_to_count {
+    margin-left: 110px;
+    margin-right: 20px;
+}
+
+#count-area {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px auto;
+}
+
+#total-count {
+    text-align: center;
+}
+
+#count, #goal {
+    margin-left: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    line-height: 200px;
+    font-size: 30px;
+}
+
+#calorie-goal {
+    text-align: center;
+}
+
