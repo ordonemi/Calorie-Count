@@ -14,15 +14,15 @@ The main page of the web application displays three things, an input section , a
 
 # Development Environment
 
-*Visual Studio Code
-*Python 3.11
-*Django 4.2.1
-*HTML
-*CSS
+* Visual Studio Code
+* Python 3.11
+* Django 4.2.1
+* HTML
+* CSS
 
 # Useful Websites
 
-* [Django Documentation and Tutorial](http://url.link.goes.here](https://docs.djangoproject.com/en/3.0/contents/)
+* [Django Documentation and Tutorial](https://docs.djangoproject.com/en/3.0/contents/)
 * [Django Tutorial in Visual Studio Code](https://code.visualstudio.com/docs/python/tutorial-django#_optional-activities)
 
 # Future Work
